@@ -4,36 +4,58 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Privacy Policy – Adobe Stock AI Agent</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-      color: #222;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+      background-color: #0e0e11;
+      color: #f4f4f4;
+      padding: 40px 20px;
+      max-width: 860px;
+      margin: auto;
+      line-height: 1.7;
     }
     h1, h2 {
-      color: #005bff;
+      color: #00bfff;
     }
     h1 {
-      font-size: 2em;
+      font-size: 2.2rem;
+      margin-bottom: 0.5em;
     }
     h2 {
-      margin-top: 1.5em;
-      font-size: 1.4em;
+      font-size: 1.4rem;
+      margin-top: 2em;
+      margin-bottom: 0.5em;
+      border-left: 4px solid #00bfff;
+      padding-left: 12px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-top: 0.3em;
     }
     a {
-      color: #005bff;
+      color: #00bfff;
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
     }
+    p, li {
+      font-size: 1rem;
+    }
     footer {
-      margin-top: 3em;
-      font-size: 0.9em;
-      color: #666;
+      margin-top: 4em;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    .highlight-box {
+      background-color: #1c1c21;
+      border: 1px solid #333;
+      border-left: 4px solid #00bfff;
+      padding: 16px;
+      border-radius: 8px;
+      margin-top: 1em;
     }
   </style>
 </head>
@@ -41,39 +63,34 @@
   <h1>Privacy Policy</h1>
   <p><strong>Effective Date:</strong> July 1, 2025</p>
 
-  <p>This Privacy Policy explains how the <strong>Adobe Stock AI Agent</strong> Chrome Extension (“we”, “our”, or “the extension”) handles user data.</p>
+  <div class="highlight-box">
+    <p>This Privacy Policy explains how the <strong>Adobe Stock AI Agent</strong> Chrome Extension (“we”, “our”, or “the extension”) handles user data.</p>
+  </div>
 
   <h2>1. Data Collection</h2>
   <p>The Adobe Stock AI Agent <strong>does not collect or store any personal data</strong> from users. The extension operates entirely within the user's local browser environment.</p>
-  <p>We do <strong>not</strong> collect:
-    <ul>
-      <li>Personal information (e.g., name, email, IP address)</li>
-      <li>Uploaded images</li>
-      <li>User browsing history</li>
-    </ul>
-  </p>
+  <ul>
+    <li>No names, emails, or IP addresses</li>
+    <li>No uploaded images</li>
+    <li>No browsing history</li>
+  </ul>
 
   <h2>2. Use of AI API Keys</h2>
-  <p>If you choose to use AI-powered metadata generation, the extension may require you to enter an API key (e.g., OpenAI, Claude, Gemini). Your API key is:</p>
+  <p>When using AI-powered metadata generation, your API key is:</p>
   <ul>
-    <li><strong>Stored only locally</strong> in your browser</li>
-    <li><strong>Never transmitted</strong> to any third-party servers controlled by us</li>
-    <li>Used exclusively to communicate with your selected AI provider’s API</li>
+    <li><strong>Stored locally</strong> in your browser</li>
+    <li><strong>Never shared</strong> with us or third parties</li>
+    <li>Used only to send requests to the AI provider you selected</li>
   </ul>
 
   <h2>3. Image Analysis</h2>
-  <p>Images are analyzed locally or sent directly to your selected AI provider (e.g., OpenAI, Anthropic, Google) <strong>only as required</strong> for metadata generation. The extension does not store, transmit, or log images or their content outside of your browser session.</p>
+  <p>Images are processed solely for metadata generation. We do not save or store image data — all processing is either local or sent directly to your configured AI provider.</p>
 
   <h2>4. Permissions</h2>
-  <p>The extension requests permission to access the <a href="https://contributor.stock.adobe.com" target="_blank" rel="noopener noreferrer">https://contributor.stock.adobe.com</a> domain in order to:</p>
-  <ul>
-    <li>Automate form-filling (titles, keywords)</li>
-    <li>Improve contributor workflow</li>
-  </ul>
-  <p>No other sites or tabs are accessed.</p>
+  <p>This extension accesses only the <a href="https://contributor.stock.adobe.com" target="_blank">Adobe Stock Contributor portal</a> to automate form filling. No other websites or data are accessed.</p>
 
   <h2>5. Third-Party Services</h2>
-  <p>This extension integrates with external AI APIs (like OpenAI, Claude, Gemini, etc.) <strong>only when configured by you</strong>. All interactions are governed by their respective privacy policies:</p>
+  <p>You may configure the extension to use AI services like OpenAI, Claude, or Gemini. Their privacy policies apply:</p>
   <ul>
     <li><a href="https://openai.com/privacy" target="_blank">OpenAI Privacy Policy</a></li>
     <li><a href="https://www.anthropic.com/privacy" target="_blank">Anthropic Privacy Policy</a></li>
@@ -81,17 +98,17 @@
   </ul>
 
   <h2>6. Data Retention</h2>
-  <p>No user data is retained. All configurations (API keys, preferences) are stored only within your local Chrome extension storage and can be removed at any time by uninstalling the extension.</p>
+  <p>No data is stored by the extension. Settings and API keys are stored only in your local browser storage and deleted when the extension is uninstalled.</p>
 
-  <h2>7. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. You are encouraged to review it periodically. Continued use of the extension implies acceptance of any changes.</p>
+  <h2>7. Changes</h2>
+  <p>This Privacy Policy may be updated. Continued use of the extension means you accept any future updates.</p>
 
   <h2>8. Contact</h2>
-  <p>If you have any questions or concerns about this Privacy Policy, please contact us at:<br/>
-  📧 <a href="mailto:your-email@example.com">toufimoki@gmail.com</a></p>
+  <p>If you have questions or concerns, contact us at:<br>
+  📧 <a href="mailto:your-email@example.com">layerkit.ltd@gmail.com</a></p>
 
   <footer>
-    &copy; 2025 Adobe Stock AI Agent – All rights reserved.
+    &copy; 2025 Adobe Stock AI Agent. All rights reserved.
   </footer>
 </body>
 </html>
